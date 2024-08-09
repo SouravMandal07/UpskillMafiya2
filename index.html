@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Grading System</title>
-    <style>
-        body{
-            background-color: aqua;
-        }
-    </style>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <div class="container">
+        <!-- Left Section with Image -->
+        <div class="left-section">
+            <img src="image.png" alt="Left Image" class="image">
+        </div>
+
+        <!-- Right Section with Form -->
+        <div class="form-section">
+            <h1>Hello Again!</h1>
+            <p>Welcome back! We missed you!</p>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Emailid@site.com" required>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" required>
+                <a href="#" class="forgot-password">Forgot Password</a>
+                <button type="submit">Login</button>
+                <p>Not a member? <a href="#">Register Now</a></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
